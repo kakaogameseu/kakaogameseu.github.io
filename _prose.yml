@@ -14,6 +14,16 @@ prose:
         field:
           element: "hidden"
           value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "파일명"
+          value: "영어로 입력해야 합니다"
+      - name: "real_title"
+        field:
+          element: "text"
+          label: "글 제목"
+          value: "제목을 입력하세요"
       - name: "author"
         field:
           element: "text"

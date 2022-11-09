@@ -4,7 +4,7 @@ layout: page
 <div id="blog">
   <!-- Responsive Header -->
   <section id="header-content">
-    <h1>{{ page.title }}</h1>
+    <h1>{{ page.real_title }}</h1>
   </section>
   <section class="bg"></section>
   <div class="row">
@@ -19,7 +19,7 @@ layout: page
         <a href="{{ post.url | relative_url }}">
           <div class="post-wrap">
             <div class="text-warp">
-              <h3 class="title">{{ post.title }}</h3>
+              <h3 class="title">{{ post.real_title }}</h3>
               <p class="excerpt">
                 {% if post.excerpt.size > 50 %}
                 {{ post.excerpt | strip_html | strip_newlines | truncatewords: 25, '...' }}
@@ -54,7 +54,7 @@ layout: page
       <div id="pagination">
         <ul>
           {% assign q = paginator.page | divided_by: 5 %}
-          {% assign min = q | times: 5  %}
+          {% assign min = q | times: 5 %}
           {% assign max = q | plus: 1 | times: 5 | minus: 1 %}
           {% if min == 0 %}
           {% assign min = 1 %}
