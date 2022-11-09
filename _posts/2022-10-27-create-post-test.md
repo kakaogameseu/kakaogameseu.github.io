@@ -8,6 +8,7 @@ tags:
   - docker
   - javascript
   - Test
+real_title: 글 제목 생성 테스트
 ---
 ## 새 글
 
