@@ -1,14 +1,15 @@
 ---
 layout: post
 title: Sample Post with Markdown
-subtitle : How markdown is displayed as html
+subtitle: How markdown is displayed as html
 tags: [Sample Post, Demo]
 author: Nayeong Kim
-comments : True
+comments: True
+real_title: Sample Post with Markdown
 ---
 
-This post show result from awesome Markdown techniques like jekyll. 
-`Jekyll` supports to transform your plain text into static websites and blogs. 
+This post show result from awesome Markdown techniques like jekyll.
+`Jekyll` supports to transform your plain text into static websites and blogs.
 
 you can easy to change style in `_utility.html` and a sample of the formatting follows.
 
@@ -87,6 +88,7 @@ Try using `.width-30`, `.width-40`, `.width-50`, `.width-60`, `.width-70` and `.
 ![sample image]({{ site.baseurl }}/assets/img/koreaSunset.jpg){: .width-80}
 {% endhighlight %}
 ![sample image]({{ site.baseurl }}/assets/img/koreaSunset.jpg)
+
 <p></p>
 ![sample image]({{ site.baseurl }}/assets/img/koreaSunset.jpg){: .width-30}
 ![sample image]({{ site.baseurl }}/assets/img/koreaSunset.jpg){: .width-50}
